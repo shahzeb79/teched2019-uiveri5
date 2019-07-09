@@ -10,7 +10,7 @@ exports.config = {
 		{
 			name : './reporter/screenshotReporter',
 			screenshotsRoot: './target/report'
-		}]
+		}],
     auth: {
       "sapcloud-form": {
         user: "shahzeb.khan@sap.com",
