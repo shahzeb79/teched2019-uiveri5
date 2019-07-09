@@ -14,7 +14,7 @@ exports.config = {
     auth: {
       "sapcloud-form": {
         user: "shahzeb.khan@sap.com",
-        pass: "Jessica@321",
+        pass: "Jessica@123",
         userFieldSelector: 'input[name="username"]',
         passFieldSelector: 'input[name="password"]',
         logonButtonSelector: 'input[type="submit"]',
