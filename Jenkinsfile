@@ -21,7 +21,6 @@ catch (Throwable err) { // catch all exceptions
     throw err
 } finally {
         node{
-            writeInflux script: this
         }
     
 }
