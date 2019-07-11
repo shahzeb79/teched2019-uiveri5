@@ -1,7 +1,7 @@
 exports.config = {
     profile: "integration",    
     //TODO Replace with url of deployed Shopping Cart
-    baseUrl: "https://cqc-uiveri5demo2.cfapps.eu10.hana.ondemand.com/index.html",
+    baseUrl: "https://caa380-uiveri5demo2.cfapps.eu10.hana.ondemand.com/index.html",
     reporters : [
 		{
 			name : './reporter/junitReporter',
