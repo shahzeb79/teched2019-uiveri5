@@ -20,9 +20,8 @@ catch (Throwable err) { // catch all exceptions
     globalPipelineEnvironment.addError(this, err)
     throw err
 } finally {
-    if (env.BRANCH_NAME.startsWith('PR') || env.BRANCH_NAME == 'master' || env.BRANCH_NAME == 'develop') {
         node{
             writeInflux script: this
         }
-    }
+    
 }
