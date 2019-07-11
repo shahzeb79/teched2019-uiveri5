@@ -1,1 +1,9 @@
-
+{
+    "name": "ase-training-singapore",
+    "version": "1.0.0",
+    "author": "SAP SE",
+    "description": "this is ASE app",
+    "private": true,
+    "devDependencies": {
+    }
+}
